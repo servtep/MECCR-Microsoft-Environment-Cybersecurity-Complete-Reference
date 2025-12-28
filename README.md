@@ -19,7 +19,7 @@ Including MCADDF (500+ attack techniques), MITRE ATT&CK, CIS, STIG, NIST, Condit
 
 | Aspect | Details |
 |--------|---------|
-| **GitHub** | [servtep/MCADDF-Microsoft-Cybersecurity-Attack-Detection-Defense-Framework](https://github.com/servtep/MCADDF-Microsoft-Cybersecurity-Attack-Detection-Defense-Framework) |
+| **GitHub** | [servtep/MCADDF](https://github.com/servtep/MCADDF-Microsoft-Cybersecurity-Attack-Detection-Defense-Framework) |
 | **Attack Techniques** | **500+** (SERVTEP-categorized) |
 | **MITRE Mapping** | Complete (all techniques cross-referenced) |
 | **Platforms** | AD, Azure, Entra ID, M365, Exchange, Teams, SharePoint, OneDrive |
@@ -75,15 +75,14 @@ Including MCADDF (500+ attack techniques), MITRE ATT&CK, CIS, STIG, NIST, Condit
 
 | Standard | Scope | Controls | Authority |
 |----------|-------|----------|-----------|
-| **CIS Azure Foundations** | Azure, Entra ID | 100+ | [CISecurity.org](https://www.cisecurity.org/benchmark/azure) |
-| **CIS Microsoft 365** | M365, Exchange Online | 120+ | [CISecurity.org](https://www.cisecurity.org/benchmark/microsoft_365) |
-| **CIS Windows Server** | Windows 2022/2025 | 100+ | [CISecurity.org](https://www.cisecurity.org/benchmark/microsoft_windows_server) |
-| **CIS Windows 11** | Client devices | 85+ | [CISecurity.org](https://www.cisecurity.org/benchmark/microsoft_windows_11) |
-| **DISA STIG AD** | Active Directory | 300+ | [STIG Viewer](https://www.stigviewer.com/stig/active_directory_domain/) |
-| **DISA STIG Entra ID** | Microsoft Entra ID | 150+ | [STIG Viewer](https://www.stigviewer.com/) |
-| **DISA STIG Exchange** | Exchange Server | 69 critical | [STIG Viewer](https://www.stigviewer.com/stig/exchange_2019_edge_server/) |
-| **NIST SP 800-53** | Federal/High assurance | 200+ | [CSRC](https://csrc.nist.gov) |
-| **CISA SCuBA** | M365 comprehensive | 100+ | [cisa.gov/scuba](https://cisa.gov/scuba) |
+| **CIS Azure Foundations** | Azure, Entra ID | 100+ | [CIS Benchmarks](https://www.cisecurity.org) |
+| **CIS Microsoft 365** | M365, Exchange Online | 120+ | [CIS Benchmarks](https://www.cisecurity.org) |
+| **CIS Windows Server** | Windows 2022/2025 | 100+ | [CIS Benchmarks](https://www.cisecurity.org) |
+| **CIS Windows 11** | Client devices | 85+ | [CIS Benchmarks](https://www.cisecurity.org) |
+| **DISA STIG** | Active Directory, Exchange, Windows | 300+ | [STIG Viewer](https://www.stigviewer.com) |
+| **Microsoft Entra ID STIG** | Microsoft Entra ID | 150+ | [STIG Viewer](https://www.stigviewer.com) |
+| **NIST SP 800-53** | Federal/High assurance | 200+ | [NIST CSRC](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) |
+| **CISA SCuBA** | M365 comprehensive baseline | 100+ | [CISA SCuBA](https://cisa.gov/scuba) |
 
 **Total Control Coverage:** 1,000+ hardening controls across all standards
 
@@ -93,10 +92,10 @@ Including MCADDF (500+ attack techniques), MITRE ATT&CK, CIS, STIG, NIST, Condit
 
 | Platform | Rules | Microsoft Coverage | Repository |
 |----------|-------|--------------------|-----------  |
-| **Microsoft Sentinel** | 200+ solutions | All MS products (native integration) | [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) |
-| **Splunk** | 50+ Office 365 rules | M365, Azure, hybrid | [research.splunk.com](https://research.splunk.com) |
+| **Microsoft Sentinel** | 200+ solutions | All MS products (native integration) | [Azure Sentinel GitHub](https://github.com/Azure/Azure-Sentinel) |
+| **Splunk** | 50+ Office 365 rules | M365, Azure, hybrid | [Splunk Research](https://research.splunk.com) |
 | **Purview DLP** | 200+ SITs | Data classification & protection | Built-in to M365 |
-| **Microsoft Defender XDR** | 150+ rules | Integrated threat detection | Microsoft 365 Defender |
+| **Microsoft Defender XDR** | 150+ rules | Integrated threat detection | [Microsoft 365 Defender](https://security.microsoft.com) |
 
 ### Layer 5: Access Control Models (Enforce Trust)
 
@@ -508,8 +507,8 @@ Ongoing: Quarterly Assessments
 | **CIS Benchmarks** | [cisecurity.org](https://www.cisecurity.org) |
 | **DISA STIG Viewer** | [stigviewer.com](https://www.stigviewer.com) |
 | **CISA SCuBA** | [cisa.gov/scuba](https://cisa.gov/scuba) |
-| **Microsoft Sentinel** | [azure.microsoft.com/sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel/) |
-| **NIST 800-53** | [csrc.nist.gov](https://csrc.nist.gov) |
+| **Microsoft Sentinel** | [azure.microsoft.com/sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel) |
+| **NIST 800-53** | [nist.gov/800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) |
 | **MAAD-AF** | [M365 Automation Framework](https://github.com/microsoft/maad-af) |
 
 ---
