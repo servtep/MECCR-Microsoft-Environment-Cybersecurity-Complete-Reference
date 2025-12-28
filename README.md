@@ -509,7 +509,7 @@ Ongoing: Quarterly Assessments
 | **CISA SCuBA** | [cisa.gov/scuba](https://cisa.gov/scuba) |
 | **Microsoft Sentinel** | [azure.microsoft.com/sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel) |
 | **NIST 800-53** | [nist.gov/800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) |
-| **MAAD-AF** | [M365 Automation Framework](https://github.com/microsoft/maad-af) |
+| **MAAD-AF** | [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) |
 
 ---
 
